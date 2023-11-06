@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "button-type": "off",
+    "axe/keyboard": "off",
+    "no-inline-styles": "off",
+    "axe/text-alternatives": "off",
+    "axe/name-role-value": "off",
+    "disown-opener": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 113",
+    "not firefox <= 113",
+    "not ios_saf <= 16.5",
+    "not safari <= 16.5"
+  ]
+}

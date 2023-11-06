@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="icon" type="image/svg+xml" href="/assets/ikhsanfd.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="/css/dark-theme.css"
+      id="dark-theme-stylesheet"
+    />
+
+    <title>Portfolio | Ikhsan Fadhillah</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <nav class="menu">
+          <div class="menu-toggle">
+            <input type="checkbox" placeholder="hmbMenu" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="brand">
+            <img src="/assets/ikhsanfd.png" alt="" />
+          </div>
+          <ul class="navlinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolios">Portfolios</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+          <div class="theme-toggle" onclick="toggleDarkTheme()">
+            <i id="theme-toggle-icon" data-feather="moon"></i>
+          </div>
+        </nav>
+      </header>
+      <!-- Akhir Header -->
+
+      <main>
+        <!-- Home -->
+        <div class="row" id="home">
+          <article class="col-3 feature-1">
+            <h1 class="animate__animated animate__fadeInUp animate__delay-1s">
+              Hello, I'm
+            </h1>
+            <h2 class="animate__animated animate__fadeInUp animate__delay-1s">
+              Ikhsan Fadhillah
+            </h2>
+            <h3 class="animate__animated animate__fadeInUp animate__delay-1s">
+              Front End Developer
+            </h3>
+            <button
+              class="animate__animated animate__fadeInUp animate__delay-1s"
+            >
+              <a
+                href="https://drive.google.com/file/d/1uf2NrqdzqtIj15YCE980QfIthjd5wwTu/view?usp=drive_link"
+                target="_blank"
+                class="animate__animated animate__fadeInUp animate__delay-1s"
+                >Get My CV!</a
+              >
+            </button>
+          </article>
+          <article class="col-3 feature-2"></article>
+          <aside class="col-6">
+            <h1>Ikhsan FD</h1>
+            <img
+              src="/assets/wow.png"
+              alt=""
+              class="animate__animated animate__fadeInUp"
+            />
+          </aside>
+        </div>
+        <!-- Akhir Home -->
+
+        <!-- About -->
+        <div class="row about" id="about">
+          <div class="col-12">
+            <h1>About</h1>
+          </div>
+          <div class="col">
+            <aside
+              class="hero-1"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <img src="/assets/ikhsan_fdd.jpg" alt="" />
+            </aside>
+            <article
+              class="feature-3"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <p>
+                My name is M.Ikhsan F. I live in Jakarta, Indonesia. S1
+                Information System graduate at ITBS Swadharma. Enjoy coding and
+                fingerstyle guitar, I am a hard worker, able to work
+                individually or in a team and be responsible. <br />
+                <br />
+                For further details, see below (my CV) you can contact me via
+                email:
+                <a
+                  href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVWFQZHMlnsWmMlLVtcWJbqTBNPcpcjCDSfhmzMqhzwzFBnRkSGCPTfXrNhXMxTHzBdMhT"
+                  target="_blank"
+                  >dilah80888@gmail.com</a
+                >
+              </p>
+            </article>
+          </div>
+        </div>
+        <!-- Akhir About -->
+
+        <!-- Portfolio -->
+        <div class="portfolios" id="portfolios">
+          <div class="col-12">
+            <h1 data-aos="fade-up" data-aos-duration="1000">Portfolios</h1>
+          </div>
+
+          <article class="portfolio" data-aos="fade-up" data-aos-duration="900">
+            <div class="card-header">
+              <h1>Attendance Web Company</h1>
+            </div>
+            <img src="/assets/login.png" alt="" class="item-detail-satu" />
+            <p>Tech: HTML, Bootstrap, PHP, JQuery, Ajax, Javascript, MySQL</p>
+          </article>
+          <article
+            class="portfolio"
+            data-aos="fade-up"
+            data-aos-duration="1300"
+          >
+            <div class="card-header">
+              <h1>CamilanOi Shop Web</h1>
+            </div>
+            <img src="/assets/vue_1.png" alt="" class="item-detail-dua" />
+            <p>Tech: HTML, CSS, Javascript, Vue.js, JSON Placeholder</p>
+          </article>
+          <article
+            class="portfolio"
+            data-aos="fade-up"
+            data-aos-duration="1600"
+          >
+            <div class="card-header">
+              <h1>Landing Page Portfolio</h1>
+            </div>
+            <img src="/assets/plpp.png" alt="" class="item-detail-tiga" />
+            <p>Tech: HTML, CSS, Javascript</p>
+          </article>
+          <article
+            class="portfolio"
+            data-aos="fade-up"
+            data-aos-duration="1900"
+          >
+            <div class="card-header">
+              <h1>Chips Shop Website</h1>
+            </div>
+            <img
+              src="/assets/chips-shop.png"
+              alt=""
+              class="item-detail-empat"
+            />
+            <p>Tech: HTML, CSS, Javascript</p>
+          </article>
+
+          <div class="justify-content-center">
+            <button data-aos="fade-up" data-aos-duration="1000">
+              <a
+                href="https://github.com/ikhsanfd1?tab=repositories"
+                target="_blank"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                ><i data-feather="github"></i>View All</a
+              >
+            </button>
+          </div>
+        </div>
+        <!-- Akhir Portfolio -->
+
+        <!-- Contact Me -->
+        <article class="contactme" id="contact">
+          <div class="col-12">
+            <h1>Contact Me</h1>
+          </div>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126912.62879063057!2d106.8226182025387!3d-6.2611416762204595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f2d148fbe713%3A0x6e667d52ebedf5a9!2sJakarta%20Timur%2C%20Kota%20Jakarta%20Timur%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1694680274189!5m2!1sid!2sid"
+              width="530"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="contact">
+            <form action="">
+              <div class="input-group">
+                <i data-feather="user"></i>
+                <input type="text" placeholder="Name" />
+              </div>
+              <div class="input-group">
+                <i data-feather="mail"></i>
+                <input type="text" placeholder="Email" />
+              </div>
+              <div class="input-group">
+                <i data-feather="phone"></i>
+                <input type="text" placeholder="No Handphone" />
+              </div>
+              <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+          </div>
+        </article>
+        <!-- Akhir Contact Me -->
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <div class="socials">
+          <a href="https://www.instagram.com/ikhsan_fdd/" target="_blank"
+            ><i data-feather="instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/m-ikhsan-fadhillah-44542a262/"
+            target="_blank"
+            ><i data-feather="linkedin"></i
+          ></a>
+          <a href="https://www.facebook.com/taksloh/" target="_blank"
+            ><i data-feather="facebook"></i
+          ></a>
+        </div>
+
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#about">Tentang Kami</a>
+          <a href="#portfolios">Portfolio</a>
+          <a href="#contactme">Contact Me</a>
+        </div>
+
+        <div class="credit">
+          <p>
+            Created by
+            <a
+              href="https://www.linkedin.com/in/m-ikhsan-fadhillah-44542a262/"
+              target="_blank"
+              >Ikhsan FD</a
+            >. | &copy; 2023.
+          </p>
+        </div>
+      </footer>
+      <!-- Akhir Footer -->
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="item-detail-modal-satu">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="/assets/login.png" alt="Attendance Web Company" />
+          <div class="product-content">
+            <h3>Attendance Web Company</h3>
+            <p>
+              This application was made to meet the standardization of passing
+              my bachelor's thesis trial, and thank God I got an A at the trial.
+              I hope this application can be used in various companies or to
+              apply for jobs. Thank You
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="item-detail-modal-dua">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="/assets/vue_1.png" alt="CamilanOi Shop Web" />
+          <div class="product-content">
+            <h3>CamilanOi Shop Web</h3>
+            <p>
+              This website uses the JavaScript programming language with the
+              Vue.JS framework, and JSON Placeholder as a temporary database.
+              This project was created as an example of my friend's KripikOI
+              Shop website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="item-detail-modal-tiga">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="/assets/plpp.png" alt="Landing Page Portfolio" />
+          <div class="product-content">
+            <h3>Landing Page Portfolio</h3>
+            <p>
+              This website uses HTML, CSS and JavaScript technology. This
+              project is my website portfolio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="item-detail-modal-empat">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="/assets/chips-shop.png" alt="Chips Shop Web" />
+          <div class="product-content">
+            <h3>Chips Shop Web</h3>
+            <p>
+              This website uses HTML, CSS and JavaScript technology. This
+              project was created as an example of my friend's KripikOI Shop
+              website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Modal -->
+
+    <!-- Back To Top -->
+    <div class="back-to-top">
+      <button id="back-to-top" type="button">
+        <i data-feather="arrow-up"></i>
+      </button>
+    </div>
+    <!-- Akhir Back To Top -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
