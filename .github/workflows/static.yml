@@ -26,4 +26,4 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           external_repository: ikhsanfd1/ikhsan-fd
-          publish_dir: . 
+          publish_dir: index.html 
