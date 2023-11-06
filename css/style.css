@@ -715,7 +715,7 @@ footer .credit a:hover {
   }
 
   body {
-    margin: 15px;
+    margin: 0 95px;
   }
 
   .row {
@@ -749,9 +749,9 @@ footer .credit a:hover {
 
   .portfolio {
     width: 350px;
-    margin: auto;
     padding: 10px;
     height: auto;
+    margin: auto;
   }
 
   .justify-content-center {
@@ -760,7 +760,6 @@ footer .credit a:hover {
 
   .contact {
     width: 100px;
-    margin: auto;
     padding: 50px;
     height: auto;
   }
