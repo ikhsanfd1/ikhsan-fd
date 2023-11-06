@@ -150,14 +150,18 @@ body {
   display: flex;
   position: fixed;
   top: 0;
-  left: 20px;
-  right: 20px;
+  left: 0;
+  right: 0;
   z-index: 1000;
   transition: background-color 0.5s;
   align-items: center;
   justify-content: space-between;
   animation-name: fadeInDown;
   animation-duration: 1s;
+}
+
+.brand {
+  padding: 0 20px;
 }
 
 .menu-toggle {
