@@ -712,10 +712,11 @@ footer .credit a:hover {
 @media (max-width: 550px) {
   html {
     font-size: 55%;
+    overflow-x: hidden;
   }
 
   body {
-    margin: 0 95px;
+    margin: 15px;
   }
 
   .row {
@@ -726,19 +727,26 @@ footer .credit a:hover {
     order: 1;
     flex: 3;
     padding: 15px;
+    text-align: center;
+    min-width: 230px;
   }
 
   .feature-2 {
     order: 2;
     flex: 1;
+    text-align: center;
+    min-width: 230px;
   }
 
   .menu-toggle {
     top: 10px;
+    text-align: center;
   }
 
   .feature-2 button {
     margin-top: 15px;
+    display: block;
+    margin: 0 auto;
   }
 
   .portfolios {
@@ -749,17 +757,21 @@ footer .credit a:hover {
 
   .portfolio {
     width: 350px;
+    margin: 0 auto;
     padding: 10px;
     height: auto;
-    margin: auto;
+    min-width: 230px;
   }
 
   .justify-content-center {
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
   }
 
   .contact {
     width: 100px;
+    margin: 0 auto;
     padding: 50px;
     height: auto;
   }
@@ -772,5 +784,15 @@ footer .credit a:hover {
     width: 100%;
     height: auto;
     margin: 0;
+  }
+}
+
+@media (min-width: 320px) {
+  .feature-3 {
+    margin: 0 85px;
+  }
+
+  .contact {
+    margin: 0 85px;
   }
 }
