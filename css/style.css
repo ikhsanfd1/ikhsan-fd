@@ -1,5 +1,5 @@
 :root {
-  --primary-font-size: "Skranji", cursive;
+  --primary-font-size: 'Skranji', cursive;
   --body-light-color: linear-gradient(to left, #f7797d, #fbd786, #c6ffdd);
   --bg-primary-color: #f6f8fd;
   --bg-secondary-color: #ffffff;
@@ -553,10 +553,13 @@ footer .credit a:hover {
   display: flex;
   gap: 1rem;
   width: 12rem;
-  background-color: var(--primary-color);
-  color: #fff;
+  color: var(--primary-color);
   margin-top: 1rem;
   padding: 1rem 1.6rem;
+}
+
+.modal-content .link-demo {
+  background-color: none;
 }
 
 /* Back to top */
