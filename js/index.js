@@ -74,11 +74,19 @@ const itemDetailModalDua = document.querySelector('#item-detail-modal-dua');
 const itemDetailModalTiga = document.querySelector('#item-detail-modal-tiga');
 const itemDetailModalEmpat = document.querySelector('#item-detail-modal-empat');
 const itemDetailModalLima = document.querySelector('#item-detail-modal-lima');
+const itemDetailModalEnam = document.querySelector('#item-detail-modal-enam');
+const itemDetailModalTujuh = document.querySelector('#item-detail-modal-tujuh');
+const itemDetailModalDelapan = document.querySelector(
+  '#item-detail-modal-delapan'
+);
 const itemDetailSatu = document.querySelector('.item-detail-satu');
 const itemDetailDua = document.querySelector('.item-detail-dua');
 const itemDetailTiga = document.querySelector('.item-detail-tiga');
 const itemDetailEmpat = document.querySelector('.item-detail-empat');
 const itemDetailLima = document.querySelector('.item-detail-lima');
+const itemDetailEnam = document.querySelector('.item-detail-enam');
+const itemDetailTujuh = document.querySelector('.item-detail-tujuh');
+const itemDetailDelapan = document.querySelector('.item-detail-delapan');
 
 itemDetailSatu.onclick = (e) => {
   itemDetailModalSatu.style.display = 'flex';
@@ -132,6 +140,40 @@ document.querySelector('#item-detail-modal-lima .close-icon').onclick = (e) => {
   e.preventDefault();
 };
 
+itemDetailEnam.onclick = (e) => {
+  itemDetailModalEnam.style.display = 'flex';
+  e.preventDefault();
+};
+
+document.querySelector('#item-detail-modal-enam .close-icon').onclick = (e) => {
+  itemDetailModalEnam.style.display = 'none';
+  e.preventDefault();
+};
+
+itemDetailTujuh.onclick = (e) => {
+  itemDetailModalTujuh.style.display = 'flex';
+  e.preventDefault();
+};
+
+document.querySelector('#item-detail-modal-tujuh .close-icon').onclick = (
+  e
+) => {
+  itemDetailModalTujuh.style.display = 'none';
+  e.preventDefault();
+};
+
+itemDetailDelapan.onclick = (e) => {
+  itemDetailModalDelapan.style.display = 'flex';
+  e.preventDefault();
+};
+
+document.querySelector('#item-detail-modal-delapan .close-icon').onclick = (
+  e
+) => {
+  itemDetailModalDelapan.style.display = 'none';
+  e.preventDefault();
+};
+
 // Klik diluar elemen modal
 window.onclick = (e) => {
   if (e.target === itemDetailModalSatu) {
@@ -144,6 +186,12 @@ window.onclick = (e) => {
     itemDetailModalEmpat.style.display = 'none';
   } else if (e.target === itemDetailModalLima) {
     itemDetailModalLima.style.display = 'none';
+  } else if (e.target === itemDetailModalEnam) {
+    itemDetailModalEnam.style.display = 'none';
+  } else if (e.target === itemDetailModalTujuh) {
+    itemDetailModalTujuh.style.display = 'none';
+  } else if (e.target === itemDetailModalDelapan) {
+    itemDetailModalDelapan.style.display = 'none';
   }
 };
 
